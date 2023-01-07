@@ -10,6 +10,8 @@ module.exports = {
         shade: "#E7F1FF",
         shade_deep: "#C4DDFF",
         text: "#0B2445",
+        bgSecondary:"#DEFFC4",
+        redtype:"#EF1617"
     },
     },
   },
