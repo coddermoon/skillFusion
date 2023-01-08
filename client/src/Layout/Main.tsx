@@ -6,7 +6,7 @@ import {Outlet} from 'react-router-dom'
 
 const Main = () => {
     return (
-        <div className="bg-shade min-h-screen">
+        <div className="bg-[#faf5f7] min-h-screen">
            <NavBar/>
            <Outlet/>
            <Footer/>

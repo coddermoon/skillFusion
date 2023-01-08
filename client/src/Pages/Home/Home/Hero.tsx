@@ -19,7 +19,7 @@ const Hero = () => {
             set your goal
         </button>
 
-                <button className=" px-4 py-2 ml-3 text-primary bg-white border-2 border-primary uppercase font-semibold">
+                <button className=" px-4 py-2 ml-3 text-primary bg-transparent border-2 border-primary uppercase font-semibold">
             set your goal
         </button>
                 </div>
