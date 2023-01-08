@@ -14,7 +14,7 @@ const Tracks = () => {
     },[])
 
     return (
-        <div className="py-20 bg-[#f0ffe4]">
+        <div className="py-20 bg-[#f0ffe4] ">
             <div className="container">
                 <div className="text-center">
                     <button className=" border-primary bg-shade text-redtype border-2 text-center px-3 rounded-full font-bold">dream categories</button>
