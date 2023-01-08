@@ -3,8 +3,8 @@ import banner from '../../../assets/images/hero.png';
 
 const Hero = () => {
     return (
-        <div className="container mx-auto py-20">
-           <div className="grid grid-cols-2">
+        <div className=" py-20 bg-[#DEFFC4] min-h-[600px]">
+           <div className="grid grid-cols-2 container mx-auto">
             <div className="content flex justify-center flex-col">
                <div>
                  <h2 className='text-5xl font-bold text-text leading-tight mb-3'>Elevate your  Skills and</h2>
