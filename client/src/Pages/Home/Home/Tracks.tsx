@@ -1,7 +1,18 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import TrackCards from "../../../components/TrackCards";
 
 
 const Tracks = () => {
+    const [categories,setCategories]= useState<any>([])
+
+    useEffect(()=>{
+
+        axios.get('/fakedata/categories.json')
+        .then(res=> setCategories(res.data))
+
+    },[])
+
     return (
         <div className="py-20 bg-[#f0ffe4]">
             <div className="container">
@@ -13,9 +24,15 @@ const Tracks = () => {
                    </div>
                     <div className="my-10 grid grid-cols-2 gap-10">
 
-                        <TrackCards />
-                        <TrackCards />
-                        <TrackCards />
+
+{
+    categories.map((category:any) =>  <TrackCards
+    key={category.name}
+    category={category}
+    /> )
+}
+                       
+                        
 
                     </div>
                 </div>
