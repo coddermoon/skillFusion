@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const TrackCards = ({category}:{category:any}) => {
@@ -10,7 +11,10 @@ const TrackCards = ({category}:{category:any}) => {
               <div className="w-full">
               <h2 className="text-2xl text-text text-left font-bold">{name}</h2>
                 <p className="text-xl text-left text-text mt-3 font-medium">{headline}</p>
-               <p className="text-left mt-3"> <small className="text-text font-bold text-lg text-left">6 course </small></p>
+               <div className="flex justify-between pr-5 mt-3"> 
+               <small className="text-text font-bold text-lg text-left">6 course </small>
+               <Link to ='/' className="text-primary font-bold text-lg text-left underline underline-offset-4">show all </Link>
+               </div>
               </div>
             
             </div>
