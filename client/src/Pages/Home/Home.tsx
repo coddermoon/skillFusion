@@ -1,3 +1,4 @@
+import Facility from "./Home/Facility";
 import Hero from "./Home/Hero";
 import Tracks from "./Home/Tracks";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
            <Hero/>
            <Tracks/>
+           <Facility/>
         </div>
     );
 };
