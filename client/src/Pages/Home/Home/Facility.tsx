@@ -8,7 +8,7 @@ import Benifits from '../../../components/Benifit';
 
 const Facility = () => {
     return (
-        <div className="container mx-auto py-10 ">
+        <div className="container mx-auto py-20 ">
             <div className="max-w-[600px] mx-auto">
                 <h4 className="   text-primary   text-center px-3 rounded-full font-bold">
                     services
