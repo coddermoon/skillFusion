@@ -17,11 +17,11 @@ const Facility = () => {
                 <p className='mt-5'>Excel in your studies with top tutors and programming courses on Skill Fusion, the go-to platform for skill development and job placement.</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-20 mt-20 items-center">
+            <div className="grid lg:grid-cols-3 gap-20 mt-20 items-center">
 
-                <div className="content col-span-2">
+                <div className="content col-auto md:col-span-2">
 
-                    <div className="grid  grid-cols-2 gap-6">
+                    <div className="grid  sm:grid-cols-2 gap-6">
                       <Benifits/>
                       <Benifits/>
                       <Benifits/>
