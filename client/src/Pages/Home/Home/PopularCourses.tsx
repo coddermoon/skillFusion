@@ -14,12 +14,12 @@ const PopularCourses = () => {
         {/* heading */}
 
         <div className="mb-20">
-          <div className="flex justify-between">
-            <h2 className="text-4xl font-bold text-text  leading-tight">
-              Best computer science program{" "}
+          <div className=" md:flex  justify-between ">
+            <h2 className="text-center mb-6 md:text-left md:mb-0 text-4xl font-bold text-text  leading-tight">
+              Best computer science program
             </h2>
             <Link
-              className="bg-primary px-4 py-2 font-semibold text-lg text-white rounded"
+              className="bg-primary  px-4 py-2 text-center mx-10 my-19 block font-semibold text-lg text-white rounded"
               to="/"
             >
               See All
@@ -28,7 +28,7 @@ const PopularCourses = () => {
 
           {/* cards on courses */}
 
-          <div className="grid grid-cols-4 gap-5 mt-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
             <CourseCard />
             <CourseCard />
             <CourseCard />
@@ -51,7 +51,7 @@ const PopularCourses = () => {
 
           {/* cards on courses */}
 
-          <div className="grid grid-cols-4 gap-5 mt-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
             <CourseCard />
             <CourseCard />
             <CourseCard />
