@@ -13,7 +13,7 @@ const Tracks = () => {
 
   return (
     <div className="py-20  ">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center">
           <h4 className="   text-primary   text-center px-3 rounded-full font-bold">
             dream categories
@@ -26,7 +26,7 @@ const Tracks = () => {
               Set your goal, start career growth now
             </p>
           </div>
-          <div className="my-10 grid grid-cols-2 gap-10">
+          <div className="my-10 grid lg:grid-cols-2 gap-10">
             {categories.map((category: any) => (
               <TrackCards key={category.name} category={category} />
             ))}

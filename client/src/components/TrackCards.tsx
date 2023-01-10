@@ -5,7 +5,7 @@ const TrackCards = ({category}:{category:any}) => {
   const {name,headline} = category;
     return (
         <div className="py-5 bg-white  hover:border-shade_deep border-2 rounded-xl hover:bg-shade shadow-md ">
-           <div className="flex items-center">
+           <div className="flex-col flex md:flex-row items-center">
             <img className="h-full " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdQXY-qLpRtNzNrlcjk-bzmWe65M_6oX3WP5PXgYjGw&s" alt="" />
             <div className="items mx-3 flex justify-between items-left">
               <div className="w-full">
