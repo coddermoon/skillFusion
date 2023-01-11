@@ -10,7 +10,7 @@ const NavBar = () => {
             </div>
             <div className="menus">
             <NavLink className=' mx-5 font-semibold text-lg' to='/login'>Home</NavLink>
-            <NavLink className=' mx-5 font-semibold text-lg' to='/login'>courses</NavLink>
+            <NavLink className=' mx-5 font-semibold text-lg' to='/courses'>courses</NavLink>
             <NavLink className=' mx-5 font-semibold text-lg' to='/login'>About us</NavLink>
             <NavLink className=' mx-5 font-semibold text-lg' to='/login'>contact us</NavLink>
 
